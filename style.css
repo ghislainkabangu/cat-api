@@ -1,0 +1,51 @@
+body {
+    margin: auto;
+}
+
+section {
+    margin: auto;
+    width: 450px;
+    background: linear-gradient(rgb(255, 157, 0), red);
+    margin-top: 50px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+section div {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.contente {
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.id {
+    color: white;
+}
+
+.contente p {
+    font-weight: bold;
+}
+
+.contente img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.contente:hover {
+    position: relative;
+    bottom: 5px;
+    padding: 10px;
+    transition: 0.5s ease;
+}
