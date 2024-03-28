@@ -10,7 +10,6 @@ button.addEventListener("click", () => {
     .then((resultat) => resultat.json())
     .then((data) => {
       imageCat.src = data[0].url;
-      console.log(data);
       id.innerHTML = "Identifiant : " + data[0].id;
     });
 });
